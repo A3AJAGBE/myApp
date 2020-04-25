@@ -1,0 +1,19 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "personal app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A3AJAGBE/myApp.git"
+  },
+  "author": "Aminat Ajagbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A3AJAGBE/myApp/issues"
+  },
+  "homepage": "https://github.com/A3AJAGBE/myApp#readme"
+}
