@@ -10,7 +10,7 @@
 <ion-content padding>
 
   <ion-list lines="none">
-    <ion-header class="ion-text-center">We would be pleased to hear from you. Please Feel free to contact us for all your queries.</ion-header>
+    <h4 class="ion-text-center">We would be pleased to hear from you. Please Feel free to contact us for all your queries.</h4>
 
     <ion-item>
       <ion-icon name="call" slot="start"></ion-icon>
@@ -29,9 +29,15 @@
     <ion-item>
       <ion-icon name="location" slot="start"></ion-icon>
       <ion-label>
-        <h2>13/14 Aungier Street, Dublin 2, Ireland</h2>
+        <h2>13/14 Aungier St,<br> Dublin, D02 WC04, Ireland</h2>
       </ion-label>
     </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button color="primary" expand="block" (click)="navme('13/14 Aungier St, Dublin, D02 WC04, Ireland')"> Direction </ion-button>
+      </ion-col>
+    </ion-row>
 
   </ion-list>
 

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 
-
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -32,6 +31,7 @@ export class HomePage {
       console.log('Please provide all the required values!')
       return false;
     } else {
+      alert('Form filled successfully');
       console.log(this.ionicForm.value)
     }
   }
