@@ -15,7 +15,7 @@
   <form action="mailto:ajagbe.aminat@yahoo.com?subject=A3AJAGBE SOLUTIONS FORM" method="post" [formGroup]="ionicForm" (ngSubmit)="submitForm()" novalidate>
 
     <ion-item lines="full">
-      <ion-label position="floating">Name</ion-label>
+      <ion-label position="floating" class="inputLabel">Name</ion-label>
       <ion-input formControlName="name" type="text" placeholder="John Doe or Facebook Inc."></ion-input>
     </ion-item>
     <span class="error ion-padding" *ngIf="isSubmitted && errorControl.name.errors?.required">
@@ -26,7 +26,7 @@
     </span>
 
     <ion-item lines="full">
-      <ion-label position="floating">Email</ion-label>
+      <ion-label position="floating" class="inputLabel">Email</ion-label>
       <ion-input formControlName="email" type="email" placeholder="JohnDoe@fb.com"></ion-input>
     </ion-item>
     <span class="error ion-padding" *ngIf="isSubmitted && errorControl.email.errors?.required">
@@ -37,7 +37,7 @@
     </span>
 
     <ion-item lines="full">
-      <ion-label position="floating">Service Summary</ion-label>
+      <ion-label position="floating" class="inputTextarea">Service Summary</ion-label>
       <ion-textarea formControlName="service" rows="3"> </ion-textarea>
     </ion-item>
     <span class="error ion-padding" *ngIf="isSubmitted && errorControl.service.errors?.required">
