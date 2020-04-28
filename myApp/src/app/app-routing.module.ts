@@ -19,6 +19,14 @@ const routes: Routes = [
     path: 'contact',
     loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
   },
+  {
+    path: 'developer',
+    loadChildren: () => import('./developer/developer.module').then( m => m.DeveloperPageModule)
+  },
+  {
+    path: 'services',
+    loadChildren: () => import('./services/services.module').then( m => m.ServicesPageModule)
+  },
 ];
 
 @NgModule({

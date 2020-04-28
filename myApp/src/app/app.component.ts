@@ -39,12 +39,22 @@ export class AppComponent {
       {
         title : "About",
         url   : "/about",
-        icon  : "person-circle"
+        icon  : "people-circle"
+      },
+      {
+        title : "Services",
+        url   : "/services",
+        icon  : "construct"
       },
       {
         title : "Contact",
         url   : "/contact",
-        icon  : "compass"
+        icon  : "help-circle"
+      },
+      {
+        title : "Developer",
+        url   : "/developer",
+        icon  : "code"
       },
     ]
   }
