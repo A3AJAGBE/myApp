@@ -15,7 +15,7 @@
     <ion-item>
       <ion-icon name="call" slot="start"></ion-icon>
       <ion-label>
-        <h2>(+353) 0235635769 / 0894324765</h2>
+        <h2>+353 1 417 7500</h2>
       </ion-label>
     </ion-item>
 
@@ -35,7 +35,8 @@
 
     <ion-row>
       <ion-col>
-        <ion-button color="primary" expand="block" (click)="navme('13/14 Aungier St, Dublin, D02 WC04, Ireland')"> Direction </ion-button>
+        <ion-button color="primary" expand="block" (click)="call()"> Call </ion-button>
+        <ion-button color="primary" expand="block" (click)="locate()" (click)="navme('13/14 Aungier St, Dublin, D02 WC04, Ireland')"> Get Directions </ion-button>
       </ion-col>
     </ion-row>
 

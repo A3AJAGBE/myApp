@@ -7,6 +7,7 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { LaunchNavigator } from '@ionic-native/launch-navigator/ngx';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { CallNumber } from '@ionic-native/call-number/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -21,6 +22,7 @@ import { AppRoutingModule } from './app-routing.module';
     SplashScreen,
     LaunchNavigator,
     Geolocation,
+    CallNumber,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
